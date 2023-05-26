@@ -52,17 +52,12 @@
   },
   "widget/SM-Oy6w8SDM4": null,
   "data/OSqWRFSDjNGA": {
-    "columns": 2,
+    "columns": 1,
     "links": [
       {
         "url": "https://github.com/alexis-gss",
         "name": "Github",
         "icon": "github"
-      },
-      {
-        "url": "https://gamesgallery.s-web.test/bo/login",
-        "icon": "image",
-        "name": "GamesGallery"
       }
     ],
     "visible": true,
