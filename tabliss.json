@@ -1,96 +1,112 @@
 {
-  "widget/BqauPa3eYvC9": null,
-  "background": {
-    "id": "default-unsplash",
-    "key": "background/unsplash",
-    "display": { "luminosity": 0, "blur": 4 }
-  },
-  "widget/default-greeting": null,
-  "widget/be0e0J2iSZnB": null,
-  "data/default-time": {
-    "mode": "digital",
-    "hour12": false,
-    "showDate": true,
-    "showMinutes": true,
-    "showSeconds": false,
-    "showDayPeriod": true,
+    "widget/SM-Oy6w8SDM4": null,
+    "widget/5CGDp6mtMJ4o": null,
+    "widget/default-greeting": null,
+    "widget/3Tn3PqPDb5zS": null,
+    "widget/SWHIHgdmrGS2": null,
+    "widget/vq65hN0F3Ctn": null,
+    "widget/EpgKpvoDQKPA": null,
+    "widget/x9CUNji25yVn": null,
+    "focus": false,
+    "widget/FfKE5Y92ue6G": null,
+    "data/2k0_N9fKPIzE": {
+        "input": "/* ---WIDGETS--- */\n.Widgets{\nbackground-color: rgb(0, 0, 0, .4);\n}\n\n/* ----TIME---- */\n.Time h3 {\nfont-size:1.5rem;\nmargin: .7rem 0 1.2rem 0;\n}\n.Time hr {\nborder: 0;\nmargin: 0;\n}\n\n/* ----LINKS---- */\n.Links {\npadding-top: 1rem;\nborder-top: 1px solid white;\n}\n.Links a {\nfont-size: 1.2rem;\nbackground: transparent;\npadding: .5rem;\nborder-radius: 0.5rem;\nborder:1px solid white;\ntransition: .3s;\n}\n.Links a:hover {\ntransform: translateY(-2px);\n}\n.Links a:hover .LinkText {\ntext-decoration: none;\n}\n\n/* ----WORKHOURS---- */\n.WorkHours{\nfont-size:.7rem;\n}\n\n/* ----WEATHER---- */\n.Weather {\nposition: absolute;\ntop: .7rem;\nleft: 0;\ndisplay:flex;\nflex-direction:column;\njustify-content:center;\nalign-items: end;\nwidth: 100%;\nfont-size: 1.2rem;\npadding-right: 1rem;\n}\n.Weather .details, .Weather .details dl {\ndisplay: flex;\nflex-direction: row;\njustify-content: center;\n}\n.Weather .details dl{\nmargin: 0 0 0 1rem;\n}\n.Weather .details dl dd {\nmargin-left: .2rem;\n}\n\n/* ----GENERAL---- */\n.Dashboard .container {\ndisplay: flex;\njustify-content: center;\nalign-items: center;\n}\n.Slot {\nposition:initial;\n}\n.Slot.middleCentre {\ntransform: none;\n}"
+    },
+    "widget/2k0_N9fKPIzE": {
+        "id": "2k0_N9fKPIzE",
+        "key": "widget/css",
+        "order": 3,
+        "display": {
+            "position": "middleCentre"
+        }
+    },
+    "locale": "fr",
     "timeZone": null,
-    "name": ""
-  },
-  "widget/XdINNiZeiPSf": null,
-  "widget/i7ZI1nPY24Py": null,
-  "widget/R9fHZBV3_Ste": null,
-  "widget/KFFRvhuVH4Xc": null,
-  "widget/x6WLi5cTVUOP": null,
-  "widget/hb-PlagrkEo3": null,
-  "widget/FE9qJbwzdxal": null,
-  "widget/U44yU_VY4wF-": null,
-  "widget/L6rI_VD2moPK": null,
-  "widget/iIzujmq9OyU2": null,
-  "widget/FJGuXtAC7apU": null,
-  "widget/3Tn3PqPDb5zS": null,
-  "data/default-unsplash": {
-    "by": "official",
-    "collections": "",
-    "featured": false,
-    "paused": false,
-    "search": "",
-    "topics": "bo8jQKTaE0Y",
-    "timeout": 0
-  },
-  "widget/OSqWRFSDjNGA": {
-    "id": "OSqWRFSDjNGA",
-    "key": "widget/links",
-    "order": 2,
-    "display": { "position": "middleCentre" }
-  },
-  "widget/WQRZQnYrICdc": {
-    "id": "WQRZQnYrICdc",
-    "key": "widget/weather",
-    "order": 3,
-    "display": { "position": "middleCentre" }
-  },
-  "widget/SM-Oy6w8SDM4": null,
-  "data/OSqWRFSDjNGA": {
-    "columns": 1,
-    "links": [
-      {
-        "url": "https://github.com/alexis-gss",
-        "name": "Github",
-        "icon": "github"
-      }
-    ],
-    "visible": true,
-    "linkOpenStyle": false
-  },
-  "widget/2k0_N9fKPIzE": {
-    "id": "2k0_N9fKPIzE",
-    "key": "widget/css",
-    "order": 4,
-    "display": { "position": "middleCentre" }
-  },
-  "widget/x9CUNji25yVn": null,
-  "widget/EpgKpvoDQKPA": null,
-  "focus": false,
-  "widget/vq65hN0F3Ctn": null,
-  "widget/default-time": {
-    "id": "default-time",
-    "key": "widget/time",
-    "order": 0,
-    "display": { "position": "middleCentre" }
-  },
-  "data/WQRZQnYrICdc": {
-    "showDetails": true,
-    "units": "si",
-    "latitude": 48.0021,
-    "longitude": 0.2025,
-    "name": "Le Mans"
-  },
-  "widget/SWHIHgdmrGS2": null,
-  "locale": "fr",
-  "timeZone": null,
-  "data/2k0_N9fKPIzE": {
-    "input": "/* ---WIDGETS--- */\n.Widgets{\nbackground-color: rgb(0, 0, 0, .4);\n}\n\n/* ----TIME---- */\n.Time h3 {\nfont-size:1.5rem;\nmargin: .7rem 0 1.2rem 0;\n}\n.Time hr {\nborder: 0;\nmargin: 0;\n}\n\n/* ----LINKS---- */\n.Links {\npadding-top: 1rem;\nborder-top: 1px solid white;\n}\n.Links a {\nfont-size: 1.2rem;\nbackground: transparent;\npadding: .5rem;\nborder-radius: 0.5rem;\nborder:1px solid white;\ntransition: .3s;\n}\n.Links a:hover {\ntransform: translateY(-2px);\n}\n.Links a:hover .LinkText {\ntext-decoration: none;\n}\n\n/* ----WORKHOURS---- */\n.WorkHours{\nfont-size:.7rem;\n}\n\n/* ----WEATHER---- */\n.Weather {\nposition: absolute;\ntop: .7rem;\nleft: 0;\ndisplay:flex;\nflex-direction:column;\njustify-content:center;\nalign-items: end;\nwidth: 100%;\nfont-size: 1.2rem;\npadding-right: 1rem;\n}\n.Weather .details, .Weather .details dl {\ndisplay: flex;\nflex-direction: row;\njustify-content: center;\n}\n.Weather .details dl{\nmargin: 0 0 0 1rem;\n}\n.Weather .details dl dd {\nmargin-left: .2rem;\n}\n\n/* ----GENERAL---- */\n.Dashboard .container {\ndisplay: flex;\njustify-content: center;\nalign-items: center;\n}\n.Slot {\nposition:initial;\n}\n.Slot.middleCentre {\ntransform: none;\n}"
-  },
-  "version": 3
+    "widget/BqauPa3eYvC9": null,
+    "widget/be0e0J2iSZnB": null,
+    "data/default-time": {
+        "mode": "digital",
+        "hour12": false,
+        "showDate": true,
+        "showMinutes": true,
+        "showSeconds": false,
+        "showDayPeriod": true,
+        "timeZone": null,
+        "name": ""
+    },
+    "widget/XdINNiZeiPSf": null,
+    "widget/i7ZI1nPY24Py": null,
+    "widget/R9fHZBV3_Ste": null,
+    "widget/KFFRvhuVH4Xc": null,
+    "widget/x6WLi5cTVUOP": null,
+    "widget/hb-PlagrkEo3": null,
+    "widget/FE9qJbwzdxal": null,
+    "widget/U44yU_VY4wF-": null,
+    "widget/L6rI_VD2moPK": null,
+    "widget/iIzujmq9OyU2": null,
+    "widget/FJGuXtAC7apU": null,
+    "widget/default-time": {
+        "id": "default-time",
+        "key": "widget/time",
+        "order": 0,
+        "display": {
+            "position": "middleCentre"
+        }
+    },
+    "widget/OSqWRFSDjNGA": {
+        "id": "OSqWRFSDjNGA",
+        "key": "widget/links",
+        "order": 1,
+        "display": {
+            "position": "middleCentre"
+        }
+    },
+    "widget/WQRZQnYrICdc": {
+        "id": "WQRZQnYrICdc",
+        "key": "widget/weather",
+        "order": 2,
+        "display": {
+            "position": "middleCentre",
+            "fontSize": 50
+        }
+    },
+    "data/WQRZQnYrICdc": {
+        "showDetails": true,
+        "units": "si",
+        "latitude": 48.0021,
+        "longitude": 0.2025,
+        "name": "Le Mans"
+    },
+    "data/OSqWRFSDjNGA": {
+        "columns": 1,
+        "links": [
+            {
+                "url": "https://github.com/alexis-gss",
+                "name": "Github",
+                "icon": "github"
+            }
+        ],
+        "visible": true,
+        "linkOpenStyle": false
+    },
+    "data/default-unsplash": {
+        "by": "topics",
+        "collections": "",
+        "featured": false,
+        "paused": false,
+        "search": "",
+        "topics": "6sMVjTLSkeQ",
+        "timeout": 0
+    },
+    "widget/1gC2mF1NJHS9": null,
+    "widget/CmnKkRiGq5A6": null,
+    "background": {
+        "id": "default-unsplash",
+        "key": "background/unsplash",
+        "display": {
+            "luminosity": 0,
+            "blur": 0
+        }
+    },
+    "version": 3
 }
